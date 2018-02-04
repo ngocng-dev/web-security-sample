@@ -183,6 +183,7 @@
             <plugin>
                 <groupId>org.owasp</groupId>
                 <artifactId>dependency-check-maven</artifactId>
+                <version>${owasp-dependency-check.version}</version>
                 <configuration>
                     <format>ALL</format>
                     <skip>${skipSecurityTests}</skip>
