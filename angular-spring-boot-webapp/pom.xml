@@ -52,7 +52,7 @@
         <flyway-maven-plugin.version>3.2.1</flyway-maven-plugin.version>
         <docker-maven-plugin.version>0.4.13</docker-maven-plugin.version>
         <frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>
-        <owasp-dependency-check.version>3.1.1</owasp-dependency-check.version>
+        <owasp-dependency-check.version>3.1.0</owasp-dependency-check.version>
     </properties>
 
     <dependencies>
