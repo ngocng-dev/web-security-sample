@@ -12,7 +12,7 @@ timeout(60) {
         def dockerServerUrl = 'http://localhost:41180'
 
         try {
-            withEnv(["JAVA_HOME=${tool 'jdk-8-oracle'}", "PATH+MAVEN=${tool 'mvn latest'}/bin:${env.JAVA_HOME}/bin"]) {
+            withEnv(["JAVA_HOME=${tool 'jdk-8-oracle'}", "PATH+MAVEN=${tool 'mvn'}/bin:${env.JAVA_HOME}/bin"]) {
 
                 // PRINT ENVIRONMENT TO JOB
                 echo "workspace directory is $workspace"
