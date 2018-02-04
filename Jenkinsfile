@@ -104,7 +104,7 @@ timeout(60) {
                 }
             }
         } catch (e) {
-            rocketSend channel: 'holi-demos', emoji: ':rotating_light:', message: 'Fehler'
+            sh "echo 'ERROR'"
             throw e
         }
     }
